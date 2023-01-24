@@ -1,4 +1,7 @@
-class Game {
+import { mrsPotatoHeadQuotes } from "./quotes/mrsPotatoHead.js";
+import { mrPotatoHeadQuotes } from "./quotes/mrPotatoHead.js";
+import {getIndex} from "./utilities.js";
+export default class Game {
 
   start() {
 
@@ -37,4 +40,4 @@ class Game {
       messageContainer.innerText = "";
     })
   }
-}
+} 
